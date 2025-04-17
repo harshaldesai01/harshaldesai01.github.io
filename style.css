@@ -80,6 +80,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 15px;
+  text-align: center;
 }
 
 .social {
