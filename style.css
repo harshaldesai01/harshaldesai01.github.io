@@ -52,26 +52,51 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-.social-buttons {
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(135deg, #0056b3, #003f87);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 86, 179, 0.2);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #003f87, #002a5c);
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(0, 86, 179, 0.3);
+}
+
+.contact-bar {
+  margin-top: 1rem;
   display: flex;
-  gap: 10px;
-  margin-top: 10px;
+  justify-content: center;
+  gap: 15px;
 }
 
 .social {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #0056b3;
   color: white;
   text-decoration: none;
-  font-size: 20px;
-  transition: background-color 0.3s ease;
+  font-size: 18px;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
 .social:hover {
   background-color: #003f87;
+  transform: scale(1.15);
 }
